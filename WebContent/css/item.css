@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	height: 1700px;
+}
+
+#item_header {
+    width: 100%;
+	height: 80px;
+	line-height: 80px;
+    background-image: url('black_logo.jpg');
+}
+
+#item_header h1 {
+    text-align: center;
+    color: white;
+}
+
+#item_header ul li a {
+	width : 100px;
+    float: right;
+	font-size : 17px;
+	color : white;
+	letter-spacing: -2px;
+	text-align: left;
+	margin-right: 10px;
+}
+
+#item_header ul li a:hover {
+	color: gray;
+}
+
+.r_header {
+	line-height : 80px;
+	position: relative;
+	bottom: 80px;
+}
+
+#item_nav {
+    width: 100%;
+	height: 80px;
+	color: white;
+	line-height: 80px;
+    background: rgb(220,222,224);
+    background: linear-gradient(0deg, rgba(220,222,224,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.nav_bar {
+	width: 100%;
+	height: 80px;
+    text-align: center;
+}
+
+.nav_bar li {
+    width: 80px;
+	height: 80px;
+	margin: 0 40px;
+	display: inline-block;
+	padding: 0 -20px;
+	text-align: center;
+}
+
+.nav_bar li a {
+    color: white;
+}
+
+.nav_bar li a:hover {
+    color: black;
+}
